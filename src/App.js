@@ -6,7 +6,7 @@ import HouseKeeping from './LinkToAllJobs/HouseKeeping';
 import InteriorDesign from './LinkToAllJobs/InteriorDesign';
 import LandScaping from './LinkToAllJobs/Landscaping';
 import Mounting from './LinkToAllJobs/Mounting';
-import Plumbering from './LinkToAllJobs/Plumbing';
+import Plumbing from './LinkToAllJobs/Plumbing';
 import PoolMaint from './LinkToAllJobs/PoolMaint';
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
                <Route path="/interior" element={<InteriorDesign />}/>
                <Route path="/land" element={<LandScaping />}/>
                <Route path="/Mounting" element={<Mounting />}/>
-               <Route path="/Plumbering" element={<Plumbering />}/>
+               <Route path="/Plumbing" element={<Plumbing />}/>
                <Route path="/Pool" element={<PoolMaint />}/>
 
             </Routes>

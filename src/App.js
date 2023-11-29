@@ -8,6 +8,8 @@ import LandScaping from './LinkToAllJobs/Landscaping';
 import Mounting from './LinkToAllJobs/Mounting';
 import Plumbing from './LinkToAllJobs/Plumbing';
 import PoolMaint from './LinkToAllJobs/PoolMaint';
+// import Questions from './Questions';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
@@ -25,7 +27,6 @@ function App() {
                <Route path="/Mounting" element={<Mounting />}/>
                <Route path="/Plumbing" element={<Plumbing />}/>
                <Route path="/Pool" element={<PoolMaint />}/>
-
             </Routes>
          </div>
       </div>

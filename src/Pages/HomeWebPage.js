@@ -1,3 +1,5 @@
+import Cards from "../Cards/Cards"
+
 const HomePage = () => {
     return(
         <>
@@ -127,6 +129,10 @@ const HomePage = () => {
           </div>
         </div>
       </div>
+</div>
+
+<div className="row align-items-center">
+    <Cards />
 </div>
 </div>
 

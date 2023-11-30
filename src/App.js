@@ -15,7 +15,7 @@ function App() {
   return (
    <BrowserRouter>
       <div className="App">
-         <h1>Awaits Completion</h1>
+         <h1></h1>
          <div id="page-body">
             <Routes>
                <Route path="/" element={<HomeWebPage />}/>

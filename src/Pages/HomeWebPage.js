@@ -7,7 +7,7 @@ const HomePage = () => {
       <div className="col-sm fs-5  pt-2  navbar-brand fs-2 ps-5"> </div>
     
         <div className="container justify-content-center">
-          <img src="https://i.postimg.cc/wBf3kxrr/Final-Logo-2.png" width="250" height="150" alt="Logo"
+          <img src="https://i.postimg.cc/wBf3kxrr/Final-Logo-2.png" width="150" height="100" alt="Logo"
             className="justify-content-center fs-5 mx-5"/>
         
       </div>
